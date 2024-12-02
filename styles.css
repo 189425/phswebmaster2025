@@ -18,3 +18,7 @@ a {
   padding: 8px;
   background-color: #eeeeee;
 }
+
+h1, h3 {
+  text-align: center;
+}
