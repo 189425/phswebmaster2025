@@ -12,3 +12,9 @@ li {
   border: solid red;
   border-width: thick;
 }
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #eeeeee;
+}
