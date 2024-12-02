@@ -8,4 +8,7 @@ li {
   display: inline;
   float: left;
   background-color: #dddddd;
+
+  border: solid red;
+  border-width: thick;
 }
