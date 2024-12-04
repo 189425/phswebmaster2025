@@ -6,10 +6,10 @@ ul {
 }
 
 #header {
-  float: right;
+  / * float: right; */
 }
 
-.button {
+a {
   border: solid black 1px;
   color: black;
   background-color: white;
