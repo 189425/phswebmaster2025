@@ -5,8 +5,8 @@ ul {
   padding: 0;
 }
 
-#header {
-  / * float: right; */
+.headerRight {
+  float: right; 
 }
 
 a {
