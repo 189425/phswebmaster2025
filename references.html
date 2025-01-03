@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Reference Page</title>
-        <link rel="stylesheet" href="/phswebmaster2025/styles.css">
+        <title>Menu</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+        <script>
+            fetch('/phswebmaster2025/assets/header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('shared-header').innerHTML = data;
+                });
+        </script>
     </head>
 
-    <body>
-        <div id="header">
-            <a href="/phswebmaster2025/index.html">Home</a>
-            <a href="/phswebmaster2025/references.html" class="headerRight">References</a>
-            <a href="/phswebmaster2025/order.html" class="headerRight">Order Now</a>
-            <a href="/phswebmaster2025/about.html" class="headerRight">About Us</a>
-        </div>
-        <br>
+    <body class = "body-element">
+        <div id="shared-header"></div>
+        
         <div>
             <h3>References</h3>
         </div>
