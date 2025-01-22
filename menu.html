@@ -10,6 +10,11 @@
                 .then(data => {
                     document.getElementById('shared-header').innerHTML = data;
                 });
+            fetch('/phswebmaster2025/assets/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('shared-footer').innerHTML = data;
+                });
         </script>
     </head>
 
@@ -113,5 +118,7 @@
                 </div>
             </div>
         </div>
+
+        <div id="shared-footer"></div>
     </body>
 </html>
