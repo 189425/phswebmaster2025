@@ -4,7 +4,6 @@ h1, h3, p.center {
 
 a:any-link {
 	color: inherit;
-	/* font: inherit; */
 	text-decoration: none;
 }
 
@@ -177,4 +176,30 @@ body {
 #price, button {
     flex: 1;
     text-align: center;
+}
+
+#shared-footer {
+	background-color: rgb(54, 119, 36);
+  	overflow: hidden;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+}
+
+#footer-left {
+	padding-left: 50px;
+	padding-top: 25px;
+}
+
+#footer-flex {
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: rgb(54, 119, 36);
+	justify-content: space-between;
+	font-size: 12.5px;
+}
+
+#footer-right {
+	padding-right: 50px;
+	text-align: right;
 }
