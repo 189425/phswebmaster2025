@@ -10,6 +10,11 @@
                 .then(data => {
                     document.getElementById('shared-header').innerHTML = data;
                 });
+	    fetch('/phswebmaster2025/assets/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('shared-footer').innerHTML = data;
+                });
         </script>
     </head>
 
@@ -19,5 +24,7 @@
 		<h3>About Us</h3>
 		<p class="normal">Established in 2024, we are one of the country's most renowned vegetarian restaurants with over 500 stores open across America.</p>
 		<p class="normal">Our founder turned to vegetarianism in 2017 and decided to open the first <i>Green Goods</i> store in January 2024.  Back then, the menu only consisted of simple fruits and vegetables.  Now it has expanded with a wider variety of items, including pasta, eggs, and yogurt.</p>
-	</body>
+
+	<div id="shared-footer"></div>
+    </body>
 </html>
