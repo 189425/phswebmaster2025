@@ -10,6 +10,11 @@
                 .then(data => {
                     document.getElementById('shared-header').innerHTML = data;
                 });
+            fetch('/phswebmaster2025/assets/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('shared-footer').innerHTML = data;
+                });
         </script>
     </head>
 
@@ -24,5 +29,7 @@
                 <p class="center">Hosting a special event? We also cater with customizable options to suit every palate.</p>
             </div>
         </main>
+
+        <div id="shared-footer"></div>
     </body>
 </html>
