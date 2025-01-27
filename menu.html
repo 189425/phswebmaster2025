@@ -20,105 +20,107 @@
 
     <body class = "body-element">
         <div id="shared-header"></div>
-        
-        <div class="flex-container">
-            <div class="image-container">
-                <img src="/phswebmaster2025/assets/menu.png" alt="Descriptive text for the image">
-            </div>
-            <div class="scrolling-window">
-                <div class="content">
-                    <h1>Menu Items</h1>
-                    <div class="tabs">
-                        <button class="tablinks" onclick="openTab(event, 'Appetizers')">Appetizers</button>
-                        <button class="tablinks" onclick="openTab(event, 'Entrees')">Entrees</button>
-                        <button class="tablinks" onclick="openTab(event, 'Desserts')">Desserts</button>
-                        <button class="tablinks" onclick="openTab(event, 'Beverages')">Beverages</button>
-                        <button class="tablinks" onclick="openTab(event, 'Cart')">Cart</button>
-                    </div>
 
-                    <!-- Hidden (Default) -->
-                    <div id="Appetizers" class="tabcontent">
-                        <h3>Appetizers</h3>
-                        <div class="item">
-                            <p id="name">Zesty Zucchini Fritters</p>
-                            <p id="price">$6.95</p>
-                            <button onclick="addToCart(this)">Add to Cart</button>
+        <main>
+            <div class="flex-container">
+                <div class="image-container">
+                    <img src="/phswebmaster2025/assets/menu.png" alt="Descriptive text for the image">
+                </div>
+                <div class="scrolling-window">
+                    <div class="content">
+                        <h1>Menu Items</h1>
+                        <div class="tabs">
+                            <button class="tablinks" onclick="openTab(event, 'Appetizers')">Appetizers</button>
+                            <button class="tablinks" onclick="openTab(event, 'Entrees')">Entrees</button>
+                            <button class="tablinks" onclick="openTab(event, 'Desserts')">Desserts</button>
+                            <button class="tablinks" onclick="openTab(event, 'Beverages')">Beverages</button>
+                            <button class="tablinks" onclick="openTab(event, 'Cart')">Cart</button>
                         </div>
-                        <div class="item">
-                            <p id="name">Crispy Cauliflower Wings</p>
-                            <p id="price">$7.50</p>
-                            <button onclick="addToCart(this)">Add to Cart</button>
+    
+                        <!-- Hidden (Default) -->
+                        <div id="Appetizers" class="tabcontent">
+                            <h3>Appetizers</h3>
+                            <div class="item">
+                                <p id="name">Zesty Zucchini Fritters</p>
+                                <p id="price">$6.95</p>
+                                <button onclick="addToCart(this)">Add to Cart</button>
+                            </div>
+                            <div class="item">
+                                <p id="name">Crispy Cauliflower Wings</p>
+                                <p id="price">$7.50</p>
+                                <button onclick="addToCart(this)">Add to Cart</button>
+                            </div>
+                            <div class="item">
+                                <p id="name">Mediterranean Hummus Platter</p>
+                                <p id="price">$8.25</p>
+                                <button onclick="addToCart(this)">Add to Cart</button>
+                            </div>
+                        </div> 
+                        <div id="Entrees" class="tabcontent">
+                            <h3>Entrees</h3>
+                            <div class="item">
+                                <p id="name">Garden Veggie Burger</p>
+                                <p id="price">$12.95</p>
+                                <button onclick="addToCart(this)">Add to Cart</button>
+                            </div>
+                            <div class="item">
+                                <p id="name">Rainbow Buddha Bowl</p>
+                                <p id="price">$11.50</p>
+                                <button onclick="addToCart(this)">Add to Cart</button>
+                            </div>
+                            <div class="item">
+                                <p id="name">Eggplant Parmesan</p>
+                                <p id="price">$13.95</p>
+                                <button onclick="addToCart(this)">Add to Cart</button>
+                            </div>
                         </div>
-                        <div class="item">
-                            <p id="name">Mediterranean Hummus Platter</p>
-                            <p id="price">$8.25</p>
-                            <button onclick="addToCart(this)">Add to Cart</button>
+                        <div id="Desserts" class="tabcontent">
+                            <h3>Desserts</h3>
+                            <div class="item">
+                                <p id="name">Vegan Chocolate Mousse</p>
+                                <p id="price">$6.50</p>
+                                <button onclick="addToCart(this)">Add to Cart</button>
+                            </div>
+                            <div class="item">
+                                <p id="name">Lemon Lavender Cheesecake</p>
+                                <p id="price">$7.00</p>
+                                <button onclick="addToCart(this)">Add to Cart</button>
+                            </div>
+                            <div class="item">
+                                <p id="name">Carrot Walnut Cake</p>
+                                <p id="price">$6.75</p>
+                                <button onclick="addToCart(this)">Add to Cart</button>
+                            </div>
                         </div>
-                    </div> 
-                    <div id="Entrees" class="tabcontent">
-                        <h3>Entrees</h3>
-                        <div class="item">
-                            <p id="name">Garden Veggie Burger</p>
-                            <p id="price">$12.95</p>
-                            <button onclick="addToCart(this)">Add to Cart</button>
+                        <div id="Beverages" class="tabcontent">
+                            <h3>Beverages</h3>
+                            <div class="item">
+                                <p id="name">Freshly Pressed Green Juice</p>
+                                <p id="price">$5.95</p>
+                                <button onclick="addToCart(this)">Add to Cart</button>
+                            </div>
+                            <div class="item">
+                                <p id="name">Iced Hibiscus Tea</p>
+                                <p id="price">$3.95</p>
+                                <button onclick="addToCart(this)">Add to Cart</button>
+                            </div>
+                            <div class="item">
+                                <p id="name">Almond Vanilla Latte</p>
+                                <p id="price">$4.75</p>
+                                <button onclick="addToCart(this)">Add to Cart</button>
+                            </div>
                         </div>
-                        <div class="item">
-                            <p id="name">Rainbow Buddha Bowl</p>
-                            <p id="price">$11.50</p>
-                            <button onclick="addToCart(this)">Add to Cart</button>
+                        <div id="Cart" class="tabcontent">
+                            <h3>Cart</h3>
+                            <p id="total" style="text-align:right">Subtotal = $0.00</p>
+                            <p id="taxes" style="text-align:right">Tax = $0.00</p>
+                            <p id="final" style="text-align:right">Total = $0.00</p>
                         </div>
-                        <div class="item">
-                            <p id="name">Eggplant Parmesan</p>
-                            <p id="price">$13.95</p>
-                            <button onclick="addToCart(this)">Add to Cart</button>
-                        </div>
-                    </div>
-                    <div id="Desserts" class="tabcontent">
-                        <h3>Desserts</h3>
-                        <div class="item">
-                            <p id="name">Vegan Chocolate Mousse</p>
-                            <p id="price">$6.50</p>
-                            <button onclick="addToCart(this)">Add to Cart</button>
-                        </div>
-                        <div class="item">
-                            <p id="name">Lemon Lavender Cheesecake</p>
-                            <p id="price">$7.00</p>
-                            <button onclick="addToCart(this)">Add to Cart</button>
-                        </div>
-                        <div class="item">
-                            <p id="name">Carrot Walnut Cake</p>
-                            <p id="price">$6.75</p>
-                            <button onclick="addToCart(this)">Add to Cart</button>
-                        </div>
-                    </div>
-                    <div id="Beverages" class="tabcontent">
-                        <h3>Beverages</h3>
-                        <div class="item">
-                            <p id="name">Freshly Pressed Green Juice</p>
-                            <p id="price">$5.95</p>
-                            <button onclick="addToCart(this)">Add to Cart</button>
-                        </div>
-                        <div class="item">
-                            <p id="name">Iced Hibiscus Tea</p>
-                            <p id="price">$3.95</p>
-                            <button onclick="addToCart(this)">Add to Cart</button>
-                        </div>
-                        <div class="item">
-                            <p id="name">Almond Vanilla Latte</p>
-                            <p id="price">$4.75</p>
-                            <button onclick="addToCart(this)">Add to Cart</button>
-                        </div>
-                    </div>
-                    <div id="Cart" class="tabcontent">
-                        <h3>Cart</h3>
-                        <p id="total" style="text-align:right">Subtotal = $0.00</p>
-                        <p id="taxes" style="text-align:right">Tax = $0.00</p>
-                        <p id="final" style="text-align:right">Total = $0.00</p>
                     </div>
                 </div>
             </div>
-        </div>
-
+`       </main>
+        
         <div id="shared-footer"></div>
     </body>
 </html>
