@@ -96,6 +96,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-bottom: 67.5px;
 }
 
 .image-container img {
@@ -181,7 +182,7 @@ body {
 #shared-footer {
 	background-color: rgb(54, 119, 36);
   	overflow: hidden;
-  	position: relative;
+  	position: fixed;
   	bottom: 0;
   	width: 100%;
 }
