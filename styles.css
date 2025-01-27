@@ -2,6 +2,10 @@ h1, h3, p.center {
 	text-align: center;
 }
 
+main {
+	min-height: calc(100vh - 67.5px - 66.5px - 18.72px);
+}
+
 a:any-link {
 	color: inherit;
 	text-decoration: none;
@@ -187,7 +191,6 @@ body {
 #shared-footer {
 	background-color: rgb(54, 119, 36);
   	overflow: hidden;
-  	position: fixed;
   	bottom: 0;
   	width: 100%;
 }
