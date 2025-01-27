@@ -17,7 +17,7 @@ p.normal {
 }
 
 .header-button {
-	background-color: Transparent;
+	background-color: transparent;
 	border: none;
 	transition: .2s;
 	width: 130px;
