@@ -86,6 +86,11 @@ body {
 	height: 25px;
 }
 
+#logo-png {
+	height: 60px;
+	padding-top: 2.5px;
+}
+
 .flex-container {
 	display: flex;
 	flex: 1;
