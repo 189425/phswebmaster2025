@@ -30,6 +30,11 @@ p.normal {
 	transform: translateY(-3px);
 }
 
+#account-button:hover .account-svg circle{
+  stroke: rgb(200, 80, 100);
+  transition: .2s;
+}
+
 .catering-items {
 	display: none;
 	position: absolute;
@@ -72,6 +77,10 @@ body {
 	flex-wrap: nowrap;
 	background-color: rgb(38,104,20);
 	justify-content: space-between;
+	background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(/phswebmaster2025/assets/GreenHeaderBackground.jpg);
+	width: 100%;
+	margin-bottom: 5px;
+	outline: 5px solid rgb(150,40,50);
 }
 
 #logo {
