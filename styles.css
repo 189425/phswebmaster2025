@@ -224,3 +224,173 @@ body {
 .link {
 	color: blue;
 }
+
+.main-first-gallery {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(6,105,64,1) 30%, rgba(7,135,101,1) 40%, rgba(7,135,101,1) 60%, rgba(6,105,64,1) 70%, rgba(0,0,0,1) 100%);
+  margin-bottom: 0px;
+}
+
+.left-gallery{
+  position: relative;
+  width: 390px;
+  height: 650px;
+  overflow: hidden;
+  box-shadow: 0, 4px, 8px, rgba(0,0,0,0.1);
+}
+
+.right-gallery{
+  position: relative;
+  width: 390px;
+  height: 650px;
+  overflow: hidden;
+  box-shadow: 0, 4px, 8px, rgba(0,0,0,0.1);
+}
+
+.left-image-track{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: scroll-up 35s linear infinite;
+}
+
+.right-image-track{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation: scroll-down 35s linear infinite;
+}
+
+.left-image-track img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+
+}
+
+.right-image-track img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.gallery-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 350px;
+}
+
+.main-text1{
+	height: 50px;
+	font-size: 50px;
+	margin-top: 130px;
+	margin-bottom: 0px;
+}
+
+.main-text2{
+	height: 50px;
+	font-size: 30px;
+}
+
+.main-menu-button{
+	height: 50px;
+	width: 200px;
+	background-color:rgb(200, 80, 100);
+	border-radius: 8px;
+	font-size: 20px;
+	text-align: center;
+	border: transparent;
+}
+
+.main-menu-button:hover{
+	background-color:rgb(180, 49, 60);
+	transition: .2s;
+}
+
+.main-gallery-text{
+	display: flex;
+	flex-direction: column;
+}
+
+.about-us-panel{
+	width: 100%;
+	height: 420px;
+	background-color: rgb(197, 255, 194);
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 50px;
+}
+
+.about-us-header{
+	font-size: 25px;
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+
+.about-us-welcome{
+	margin-top: 0px;
+	font-size: 50px;
+	margin-bottom: 0px;
+	color: rgb(180, 49, 60);
+}
+
+.welcome-logo{
+	margin-right: 200px;
+}
+
+.about-us-text{
+	display: flex;
+	flex-direction: column;
+	margin-left: 200px;
+	margin-top: 70px;
+	text-align: center;
+}
+
+.about-us-body{
+	font-size: 18px;
+	margin-top: 0px;
+}
+
+.learn-more-button{
+	height: 50px;
+	width: 200px;
+	background-color:rgb(200, 80, 100);
+	border-radius: 8px;
+	font-size: 20px;
+	text-align: center;
+	border: transparent;
+	margin-left: 34%;
+}
+
+.learn-more-button:hover{
+	background-color:rgb(180, 49, 60);
+	transition: .2s;
+}
+
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
