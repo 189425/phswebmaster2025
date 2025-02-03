@@ -205,7 +205,7 @@ body {
 
 #footer-left {
 	padding-left: 50px;
-	padding-top: 25px;
+	padding-top: 30px;
 }
 
 #footer-flex {
@@ -213,7 +213,7 @@ body {
 	flex-wrap: nowrap;
 	background-color: rgb(54, 119, 36);
 	justify-content: space-between;
-	font-size: 12.5px;
+	font-size: 14px;
 }
 
 #footer-right {
