@@ -2,89 +2,91 @@
 <html>
     <head>
         <title>Green Haven</title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="script.js"></script>
-        <script>
-            fetch('/phswebmaster2025/assets/header.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('shared-header').innerHTML = data;
-                });
-            fetch('/phswebmaster2025/assets/footer.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('shared-footer').innerHTML = data;
-                });
-        </script>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
     </head>
 
     <body class = "body-element">
-        <div id="shared-header"></div>
 
-        <main>
-            <div class = "main-first-gallery">
-            <div class = "left-gallery">
-                <div class = "left-image-track">
-                    <img src = "/phswebmaster2025/assets/L1.jpg">
-                    <img src = "/phswebmaster2025/assets/L2.jpg">
-                    <img src = "/phswebmaster2025/assets/L3.jpg">
-                    <img src = "/phswebmaster2025/assets/L4.jpg">
-                    <img src = "/phswebmaster2025/assets/L5.jpg">
-                    <img src = "/phswebmaster2025/assets/L1.jpg">
-                    <img src = "/phswebmaster2025/assets/L2.jpg">
-                    <img src = "/phswebmaster2025/assets/L3.jpg">
-                    <img src = "/phswebmaster2025/assets/L4.jpg">
-                    <img src = "/phswebmaster2025/assets/L5.jpg">
-                </div>
-            </div>            
+        
 
-            <div class = "main-gallery-text">
-                <div class = "gallery-text">
-                    <p class = "main-text1">Green Haven</p>
-                    <p class = "main-text2">Delicious & Sustainable Food</p>
-                    <button class="main-menu-button">
-                        <a href="/phswebmaster2025/menu.html">Explore our Menu</a>
-                    </button>
-                </div>
-                <div class = "location-data">
-                    <p></p>
-                </div>
-            </div>
-            
+        <div class = "video-main">
 
-            <div class = "right-gallery">
-                <div class = "right-image-track">
-                    <img src = "/phswebmaster2025/assets/R1.jpg">
-                    <img src = "/phswebmaster2025/assets/R2.jpg">
-                    <img src = "/phswebmaster2025/assets/R3.jpg">
-                    <img src = "/phswebmaster2025/assets/R4.jpg">
-                    <img src = "/phswebmaster2025/assets/R5.jpg">
-                    <img src = "/phswebmaster2025/assets/R1.jpg">
-                    <img src = "/phswebmaster2025/assets/R2.jpg">
-                    <img src = "/phswebmaster2025/assets/R3.jpg">
-                    <img src = "/phswebmaster2025/assets/R4.jpg">
-                    <img src = "/phswebmaster2025/assets/R5.jpg">
-                </div>
-            </div>
-        </div>
-
-        <div class = "about-us-panel">
-            <div class = "about-us-text">
-                <p class = "about-us-welcome">Welcome</p>
-                <p class = "about-us-header">Our Story</p>
-                <p class = "about-us-body">
-                    In the midst of a world with increasing environmental issues, it is important to recognize the influence of mother nature on our nutrition. The earth provides us with many valuable food items, from green vegetables to sweet fruits, and we must respect and preserve nature in gratitude for all that it has provided for us. We want to promote the vegetarian diet in order to protect the animal life on this planet and advocate for more environmental preservation. Our mission is to create a safe place for people to enjoy pure vegetarian food that is harvested directly from nature, which is why we created Green Haven.
+            <div class = "main-text">
+                <p class = "main-title">
+                    Green Haven
                 </p>
-                <button class = "learn-more-button">
-                    <a href="/phswebmaster2025/about.html">Learn More</a>
-                </button>
+                <p class = "main-subtitle">
+                    Delicious and Sustainable Internatinal Foods
+                </p>
+                <a class = "main-button" href = "menu.html">
+                    Explore our Menu
+                </a>
             </div>
-            <div class = "about-us-photos">
-                <img src = "/phswebmaster2025/assets/logo.png" class = "welcome-logo">
+            <video autoplay muted loop class = "video-background">
+                <source src = "./assets/mainvideo.mp4" type = "video/mp4">
+            </video>
+        </div>
+        
+        <div class = "location-info-container">
+            <div class = "location-info">
+                <div class = "location-info-horizontal"> 
+                    <div class = "address">
+                        <p class = "location-title">
+                            The White House
+                        </p>
+                        <p class = "location-address1">
+                            1600 Pennsylvania Avenue NW
+                        </p>
+                        <p class = "location-address2">
+                            Washington, DC 20500
+                        </p>
+                    </div>
+        
+                    <div class = "hours">
+                        <p class = "hours-title">
+                            Hours of Operation
+                        </p>
+                        <p class = "hours-days">
+                            Monday - Saturday
+                        </p>
+                        <p class = "hours-hours"> 
+                            10:00 AM - 10:00 PM
+                        </p>
+                    </div>
+                </div>
+                <div class = "location-info-vertical">
+                    <a class = "contact-button">
+                        Contact Us
+                    </a>
+                </div>
             </div>
         </div>
-        </main>
 
-        <div id="shared-footer"></div>
+        <div class = "welcome-about-us">
+            <div class = "welcome-pictures">
+
+            </div>
+            <div class = welcome-text>
+
+                <p class = "welcome-title">
+                    Welcome to Green Haven
+                </p>
+                <p class = "welcome-subtitle">
+                    Enjoy delicious street cuisine from around the world.
+                </p>
+                <p class = "welcome-description">
+                    We are committed to providing our customers with the best possible experiences. Our menu features a variety of vegan dishes from around the world, all made with fresh, locally sourced ingredients.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
     </body>
 </html>
