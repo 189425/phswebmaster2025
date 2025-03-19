@@ -6,7 +6,7 @@ body, html {
 }
 
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.30)), url('/phswebmaster2025/assets/GreenHeaderBackground.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.30)), url('GreenHeaderBackground.jpg');
 }
 
 #topRow {
@@ -25,8 +25,8 @@ header {
 }
 
 #logo {
-    width: 6.5%;
-    height: 6.5%;
+    width: 75%;
+    height: auto;
     padding-top: 10px;
     padding-left: 10px;
 }
@@ -52,7 +52,7 @@ header {
     border: 1.5px black solid;
     position: absolute;            
     left: 87%;
-    width: 95px;
+    width: 90px;
     display: none;
     z-index: 1;
     text-align: center;
@@ -71,12 +71,12 @@ header {
     color: white;
     font-kerning: normal;
     padding-left: 10%;
-    font-size: 80px;
+    font-size: 60px;
     width: 350px;
     letter-spacing: 10px;
     text-transform: lowercase;
     text-decoration: underline;
-    text-decoration-thickness: 5.5px;
+    text-decoration-thickness: 5px;
 }
 
 a.menu {
@@ -88,7 +88,7 @@ a.menu button {
     border: none;
     margin-bottom: 10px;
     width: 210px;
-    height: 45px;
+    height: 35px;
     font-family: 'Merriweather', sans-serif;
     font-weight: 500;
     font-size: 0.9375rem;
@@ -101,13 +101,19 @@ a.menu button:hover {
     transition: background-color 0.5s ease-in-out;
 }
 
+a.logo-link {
+    width: 100px;
+    height: min-content;
+}
+
 #account-button, #rewards-button {
-    background: url('/phswebmaster2025/assets/GreenHeaderBackground.jpg');
+    background: url('GreenHeaderBackground.jpg');
     border: none;
     font-family: 'Merriweather', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
+    padding-bottom: 0;
 }
 
 .video-main {
