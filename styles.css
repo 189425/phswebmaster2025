@@ -305,11 +305,6 @@ li {
     padding-bottom: 10px;
 }
 
-.menu {
-    flex: 1;
-    padding: 20px;
-}
-
 .dishes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
