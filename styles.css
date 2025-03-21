@@ -132,7 +132,7 @@ a.logo-link {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	height: 2000px;
+	height: 1500px;
 	
 }
 
@@ -444,7 +444,7 @@ div.menu {
 }
 
 #top-banner {
-    height: 600px;
+    height: 400px;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/phswebmaster2025/assets/crepes.jpg');
     display: flex;
     align-items: center;
