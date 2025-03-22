@@ -65,7 +65,7 @@ header {
 
 #topRow h1 {
     flex: 1;
-    font-family: 'Mr Dafoe', cursive;
+    font-family: 'Mr Dafoe', 'Brush Script Mt', cursive;
     font-weight: 200;
     margin: 0;
     color: white;
@@ -133,7 +133,8 @@ a.logo-link {
 	padding: 0;
 	border: 0;
 	height: 1500px;
-	
+	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/phswebmaster2025/assets/beige.jpg');
+	background-size: cover;
 }
 
 .video-background {
