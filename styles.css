@@ -461,3 +461,127 @@ div.menu {
     text-align: center;
 	font-family: 'Atlassian Sans';
 }
+
+.welcome-about-us {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	margin-top: 18%;
+	padding-top: 5%;
+	gap: 15%;
+	width: 100%;
+	/*background: rgb(250, 246, 220);*/
+	padding-bottom: 5%;
+}
+
+.welcome-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	padding-left: 8%;
+	max-width: 40vw;
+}
+
+.welcome-pictures {
+	width: 25vw;
+	height: 25vw;
+	background-color: red;
+	margin-right: 8%;
+}
+
+.welcome-title {
+	font-size: 44px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: rgb(202, 67, 90);
+}
+
+.welcome-subtitle {
+	font-size: 26px;
+	margin-top: 0px;
+	font-style: italic;
+}
+
+.welcome-description {
+	font-size: 22px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.welcome-button {
+	background-color: rgb(202, 67, 90);
+	color: white;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 4px;
+	font-size: 24px;
+}
+
+.welcome-button:hover {
+	background-color: rgb(180, 49, 60);
+	transition: background-color 0.3s ease-in-out;
+}
+
+.something-vertical {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10vw;
+	padding-top: 4vw;
+	background-color: rgba(0, 0, 0, 0.19);
+}
+
+.something-horizontal {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+	gap: 5vw;
+}
+
+.something-title {
+	font-size: 44px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: rgb(202, 67, 90);
+}
+
+.something-subtitle {
+	font-size: 26px;
+	margin-top: 0px;
+	font-style: italic;
+}
+
+.something-v {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: top;
+	width: 20vw;
+}
+
+.something-v-title {
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+.something-v-text {
+	font-size: 18px;
+	text-align: center;
+}
+
+.something-v-image {
+	width: 10vw;
+	height: 10vw;
+}
+
