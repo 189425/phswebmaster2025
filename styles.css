@@ -132,7 +132,7 @@ a.logo-link {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	height: 1500px;
+	height: max-content;
 	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/phswebmaster2025/assets/beige.jpg');
 	background-size: cover;
 }
@@ -349,6 +349,7 @@ div.menu {
     border-radius: 10px;
     border-color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
 }
 
 .menu-item-photo {
