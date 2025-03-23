@@ -1,7 +1,7 @@
 :root {
 	/* defining colors */
-	--main-color:  rgb(202, 67, 90);
-	--main-color-hover: rgb(180, 49, 60);
+	--main-color:  rgb(54, 131, 68);
+	--main-color-hover: rgb(24, 100, 37);
 	--beige-color: rgb(248, 229, 187);
 	--beige-color-hover: rgb(245, 220, 165);
 }
