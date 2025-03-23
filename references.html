@@ -14,6 +14,9 @@
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('shared-header').innerHTML = data;
+                    document.getElementById("mobile-menu-button").addEventListener("click", function() {
+                        document.getElementById("buttonRow").classList.toggle("show");
+                    });
                 });
         </script>
         <style>
