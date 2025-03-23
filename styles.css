@@ -43,9 +43,8 @@ header {
 #account {
     background: none;
     border: none;
-    width: 30px;
+    width: 150px;
     height: auto;
-	padding-right: 20px;
 }
 
 #account-dropdown {
@@ -55,14 +54,13 @@ header {
     flex: 1;
     flex-grow: 0;
     justify-content: end;
-	padding-right: 22px;
 }
 
 #account-dropdown-content {
     background-color: var(--beige-color);
     border: 1.5px black solid;
     position: absolute;            
-    left: 88%;
+    left: 87%;
     width: 90px;
     display: none;
     z-index: 1;
