@@ -1,3 +1,11 @@
+:root {
+	/* defining colors */
+	--main-color:  rgb(202, 67, 90);
+	--main-color-hover: rgb(180, 49, 60);
+	--beige-color: rgb(248, 229, 187);
+	--beige-color-hover: rgb(245, 220, 165);
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -15,7 +23,7 @@ header {
     justify-content: center;
     padding-bottom: 5px;
 	align-items: center;
-	border-bottom: 5px solid rgb(202, 67, 90);
+	border-bottom: 5px solid var(--main-color);
 }
 
 #buttonRow {
@@ -50,7 +58,7 @@ header {
 }
 
 #account-dropdown-content {
-    background-color: rgb(248, 229, 187);
+    background-color: var(--beige-color);
     border: 1.5px black solid;
     position: absolute;            
     left: 87%;
@@ -86,9 +94,8 @@ a.menu {
 }
 
 a.menu button {
-    background-color: rgb(248, 229, 187);
+    background-color: var(--beige-color);
     border: none;
-    margin-bottom: 10px;
     width: 210px;
     height: 35px;
     font-family: 'Merriweather', sans-serif;
@@ -99,7 +106,7 @@ a.menu button {
 }
 
 a.menu button:hover {
-    background-color: rgb(245, 220, 165);
+    background-color: var(--beige-color-hover);
     transition: background-color 0.5s ease-in-out;
 }
 
@@ -173,7 +180,7 @@ a.logo-link {
 }
 
 .main-button {
-	background-color: rgb(202, 67, 90);
+	background-color: var(--main-color);
 	color: white;
 	border: none;
 	padding: 15px 32px;
@@ -188,7 +195,7 @@ a.logo-link {
 }
 
 .main-button:hover {
-	background-color: rgb(180, 49, 60);
+	background-color: var(--main-color-hover);
 	transition: background-color 0.3s ease-in-out;
 }
 
@@ -267,7 +274,7 @@ a.logo-link {
 }
 
 .contact-button {
-	background-color: rgb(202, 67, 90);
+	background-color: var(--main-color);
 	color: white;
 	border: none;
 	padding: 15px 32px;
@@ -282,7 +289,7 @@ a.logo-link {
 }
 
 .contact-button:hover {
-	background-color: rgb(180, 49, 60);
+	background-color: var(--main-color-hover);
 	transition: background-color 0.3s ease-in-out;
 }
 
@@ -408,7 +415,7 @@ div.menu {
 }
 
 .menu-item-order {
-    background-color: rgb(202, 67, 90);
+    background-color: var(--main-color);
     color: white;
     border: none;
     padding: 6px 12px;
@@ -423,7 +430,7 @@ div.menu {
 }
 
 .menu-item-order:hover {
-    background-color: rgb(180, 49, 60);
+    background-color: var(--main-color-hover);
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -497,7 +504,7 @@ div.menu {
 	font-size: 44px;
 	font-weight: bold;
 	margin-bottom: 15px;
-	color: rgb(202, 67, 90);
+	color: var(--main-color);
 }
 
 .welcome-subtitle {
@@ -513,7 +520,7 @@ div.menu {
 }
 
 .welcome-button {
-	background-color: rgb(202, 67, 90);
+	background-color: var(--main-color);
 	color: white;
 	border: none;
 	padding: 15px 32px;
@@ -528,7 +535,7 @@ div.menu {
 }
 
 .welcome-button:hover {
-	background-color: rgb(180, 49, 60);
+	background-color: var(--main-color-hover);
 	transition: background-color 0.3s ease-in-out;
 }
 
@@ -555,7 +562,7 @@ div.menu {
 	font-size: 44px;
 	font-weight: bold;
 	margin-bottom: 10px;
-	color: rgb(202, 67, 90);
+	color: var(--main-color);
 }
 
 .something-subtitle {
