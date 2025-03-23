@@ -16,6 +16,10 @@
                     document.getElementById('shared-header').innerHTML = data;
                 });
 
+            document.getElementById("mobile-menu-toggle").addEventListener("click", function() {
+                document.getElementById("buttonRow").classList.toggle("show");
+            });
+
             document.addEventListener("DOMContentLoaded", function() {
                 const checkboxes = document.querySelectorAll(".checkboxes");
                 const allDishes = document.querySelectorAll(".menu-item-container");
