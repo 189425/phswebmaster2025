@@ -81,9 +81,9 @@ function removeItem(object) {
 
 function adjustPrice(action, price) {
     if (action === "add") {
-	subtotal += parseFloat(price);
+		subtotal += parseFloat(price);
     } else if (action === "subtract") {
-	subtotal -= parseFloat(price);
+		subtotal -= parseFloat(price);
     }
     
     subtotal = parseFloat(subtotal.toFixed(2));
@@ -95,4 +95,8 @@ function adjustPrice(action, price) {
     
     let finalPara = document.getElementById("final");
     finalPara.innerHTML = "Total = $" + (subtotal + (subtotal * 0.0825)).toFixed(2);
+}
+
+function toggleMenu() {
+	document.getElementById("buttonRow").classList.toggle("show");
 }
