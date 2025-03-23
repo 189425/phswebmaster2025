@@ -96,7 +96,3 @@ function adjustPrice(action, price) {
     let finalPara = document.getElementById("final");
     finalPara.innerHTML = "Total = $" + (subtotal + (subtotal * 0.0825)).toFixed(2);
 }
-
-function toggleMenu() {
-	document.getElementById("buttonRow").classList.toggle("show");
-}
