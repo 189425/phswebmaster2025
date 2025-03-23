@@ -609,4 +609,8 @@ div.menu {
 	#mobile-menu-button {
 		display: block;
 	}
+
+	#buttonRow.show {
+		display: flex;
+	}
 }
