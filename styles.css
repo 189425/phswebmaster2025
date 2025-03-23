@@ -613,4 +613,9 @@ div.menu {
 	#buttonRow.show {
 		display: flex;
 	}
+
+	#account-dropdown {
+		width: 75%;
+		padding-left: 5px;
+	}
 }
