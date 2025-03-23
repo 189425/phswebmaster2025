@@ -125,7 +125,8 @@ a.logo-link {
 }
 
 #mobile-menu-button {
-	display: none;
+	display: none;	
+	font-size: 24px;
 }
 
 .video-main {
