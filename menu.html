@@ -54,29 +54,16 @@
             @media (max-width: 650px) {
                 .container {
                     flex-direction: column;
+                    height: auto;
                 }
                 
-                .filter, .cart {
-                    height: 75%;
-                    padding: 3px;
+                .filter, .cart, div.menu{
+                    width: 100%;
                 }
-
-                .cart-items {
-                    height: 75%;
-                }
-
+                
                 .dishes {
                     grid-template-columns: repeat(1, 1fr);
                     height: 75%;
-                }
-
-                li {
-                    font-size: 10px;
-                }
-
-                .cart p {
-                    padding-bottom: 1px;
-                    padding-top: 2px;
                 }
             }
         </style>
