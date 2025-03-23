@@ -608,6 +608,7 @@ div.menu {
 		top: 70px;
 		background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.30)), url('/phswebmaster2025/assets/GreenHeaderBackground.jpg');
 		padding: 0 5px 5px 5px;
+		z-index: 2;
 	}
 
 	#mobile-menu-button {
