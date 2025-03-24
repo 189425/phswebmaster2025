@@ -22,7 +22,7 @@
             document.addEventListener("DOMContentLoaded", function() {
                 // check if they clicked a featured dish
                 let special = JSON.parse(localStorage.getItem("special-item"));
-                if (special.source === "index") {
+                if (special !== null && special.source === "index") {
                     addToCart(special.name, special.price);
                 }
 
