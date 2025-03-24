@@ -20,6 +20,14 @@
                 });
 
             document.addEventListener("DOMContentLoaded", function() {
+                // check if they clicked a featured dish
+                let special = JSON.parse(localStorage.getItem("special-item"));
+                if (special.source === "index") {
+                    addToCart(special.name, special.price);
+                }
+
+                localStorage.setItem("special-item", null);
+                
                 const checkboxes = document.querySelectorAll(".checkboxes");
                 const allDishes = document.querySelectorAll(".menu-item-container");
     
@@ -43,7 +51,7 @@
     
                 checkboxes.forEach(checkbox => {checkbox.addEventListener("change", filter)});
                 document.querySelectorAll(".menu-item-order").forEach(
-                    button => {button.onclick = function() { addToCart(this);}}
+                    button => {button.onclick = function() { addToCartObject(this);}}
                 )
             });
         </script>
