@@ -18,6 +18,13 @@
                         document.getElementById("buttonRow").classList.toggle("show");
                     });
                 });
+
+            document.querySelectorAll(".menu-item-order").forEach(
+                button => {button.onclick = function() { 
+                    localStorage.setItem("special-item", this);
+                    window.location.href = "./menu.html";
+                }}
+            );
         </script>
         <style>
             @media (max-width: 650px) {
