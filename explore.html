@@ -11,6 +11,7 @@
     <script src="script.js"></script>
     <style>
         body {
+            margin-top: 20%;
             text-align: center;
         }
         .tooltip {
@@ -32,6 +33,10 @@
             fill: var(--main-color);
             transition: 0.3s;
         }
+
+        h3, p {
+            text-align: center;
+        }
     </style>
     <script>
         fetch('/phswebmaster2025/assets/header.html')
@@ -46,6 +51,10 @@
 </head>
 <body>
     <div id="shared-header"></div>
+
+    <h3>Explore</h3>
+
+    <p>There are many different cuisines in different areas of the world.  Click on each region to learn more about the style of cuisine and get a hint on the origins of our dishes!</p>
     
     <!-- SVG MAP -->
     <div style="position: relative; display: inline-block;">
