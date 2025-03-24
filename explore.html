@@ -37,8 +37,25 @@
             padding-top: 5px;
         }
 
-        h3, p {
+        p {
             text-align: center;
+        }
+
+        #explore-banner {
+            height: 400px;
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/phswebmaster2025/assets/dining.jpg');
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-position-y: -200px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 70px;
+            vertical-align: middle;
+            text-align: center;
+            font-family: 'Atlassian Sans';
         }
 
         @media (max-width: 650px) {
@@ -65,9 +82,9 @@
 </head>
 <body class="body-element">
     <div id="shared-header"></div>
-
-    <h3>Explore</h3>
-
+    <div id="explore-banner">
+        <h1>Explore</h1>
+    </div>
     <p>There are many different cuisines in different areas of the world.  Click on each region to learn more about the style of cuisine and get a hint on the origins of our dishes!</p>
     
     <!-- SVG MAP -->
