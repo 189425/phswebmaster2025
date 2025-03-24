@@ -33,7 +33,7 @@
                         // for multiple tags
                         let data = dish.getAttribute("data-categories").split(" ");
     
-                        if (filters.length === 0 || filters.every(filter => data.includes(filter))) {
+                        if (filters.length === 0 || filters.some(filter => data.includes(filter))) {
                             dish.style.display = "flex";
                         } else {
                             dish.style.display = "none";
