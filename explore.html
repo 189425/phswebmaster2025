@@ -28,12 +28,12 @@
             pointer-events: fill;
         }
 
-        svg path:hover {
+        #world-map path:hover {
             fill: var(--main-color);
             transition: 0.3s;
         }
 
-        svg {
+        #world-map {
             padding-top: 5px;
         }
 
@@ -42,7 +42,7 @@
         }
 
         @media (max-width: 650px) {
-            svg {
+            #world-map {
                 width: 300px;
             }
 
@@ -98,8 +98,13 @@
                     "africa": "Africa food is known for its spices, stews, and grains popular on the continent.  Often featuring hearty, slow-cooked meals that soak up flavor, meals are sure to be rich and savory."
                 }[country] || "";
 
-                
-                if (!(text === "")) {
+                if (window.innerWidth <= 650 && !(text === "")) {
+                    tooltip.style.left = (event.pageX - 80) + "px";
+                    tooltip.style.top = (event.pageY + 10) + "px";
+                    tooltip.style.width = "150px";
+                    tooltip.innerHTML = text;
+                    tooltip.style.display = "block";
+                } else if (!(text === "")) {
                     tooltip.style.left = (event.pageX + 10) + "px";
                     tooltip.style.top = (event.pageY + 10) + "px";
                     tooltip.style.width = "250px";
