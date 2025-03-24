@@ -305,7 +305,7 @@ li {
 
 .container {
     display: flex;
-    height: 100vh; /* Full height */
+    height: max-content; /* Full height */
     padding: 20px;
 }
 
