@@ -1,8 +1,6 @@
 subtotal = 0;
 
-function addToCart(object) {
-    let container = object.parentElement.parentElement.parentElement;
-
+function addToCart(itemName, itemPrice) {
     let newDiv = document.createElement("div");
     newDiv.style.display = "flex";
     newDiv.style.flexDirection = "column";
@@ -19,7 +17,7 @@ function addToCart(object) {
     topRow.style.gap = "20%";
 
     let name = document.createElement("h6");
-    name.textContent = object.parentElement.childNodes[1].textContent;
+    name.textContent = itemName;
     name.style.flex = 1;
     name.style.marginRight = "10px";
     name.style.paddingLeft = "5px";
@@ -62,8 +60,9 @@ function addToCart(object) {
     bottomRow.style.justifyContent = "center"; 
     bottomRow.style.height = "25px"; 
     bottomRow.style.width = "100%"; 
+	
     let price = document.createElement("h4");
-    price.textContent = object.textContent;
+    price.textContent = itemPrice;
     bottomRow.appendChild(price);
     adjustPrice("add", price.textContent.substring(1));
 
@@ -71,6 +70,10 @@ function addToCart(object) {
     newDiv.appendChild(bottomRow);
 
     document.getElementsByClassName("cart-items")[0].appendChild(newDiv);
+}
+
+function addToCartObject(object) {
+    addToCart(object.parentElement.childNodes[1].textContent, object.textContent);
 }
 
 function removeItem(object) {
