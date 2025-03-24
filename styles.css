@@ -373,6 +373,8 @@ div.menu {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .menu-item-photo-image {
