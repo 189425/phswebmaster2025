@@ -3,6 +3,7 @@
 	<head>
 		<title>About Us</title>
 		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
         <script src="script.js"></script>
 	    <script>
             fetch('/phswebmaster2025/assets/header.html')
@@ -16,7 +17,18 @@
                     document.getElementById('shared-footer').innerHTML = data;
                 });
         </script>
-        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<style>
+		@media (max-width: 650px) {
+			.prep-horizontal {
+				flex-direction: column;
+			}
+
+			.prep-panel {
+				flex-direction: row;
+				width: 80vw;
+			}
+		}
+	</style>
     </head>
 
     <body class = "body-element">
