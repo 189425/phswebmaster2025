@@ -21,7 +21,11 @@
 
             document.querySelectorAll(".menu-item-order").forEach(
                 button => {button.onclick = function() { 
-                    localStorage.setItem("special-item", this);
+                    let data = {
+                        name: this.parentElement.childNodes[1].textContent,
+                        price: this.textContent
+                    };
+                    localStorage.setItem("special-item", JSON.stringify(data));
                     window.location.assign("https://189425.github.io/phswebmaster2025/menu.html");
                 }}
             );
