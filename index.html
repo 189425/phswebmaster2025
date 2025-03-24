@@ -24,7 +24,8 @@
                     button => {button.onclick = function() { 
                         let data = {
                             name: this.parentElement.childNodes[1].textContent,
-                            price: this.textContent
+                            price: this.textContent,
+                            source: "index"
                         };
                         localStorage.setItem("special-item", JSON.stringify(data));
                         window.location.assign("https://189425.github.io/phswebmaster2025/menu.html");
