@@ -360,12 +360,13 @@ div.menu {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 95%;
     max-height: 300px;
     border-radius: 10px;
     border-color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	background-color: white;
+	margin: 7px 7px 7px 7px;
 }
 
 .menu-item-photo {
