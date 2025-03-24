@@ -752,3 +752,35 @@ div.menu {
 	text-align: center;
 }
 
+.featured-bar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 70px;
+	gap: 1vw;
+	padding-left: 1vw;
+	padding-right: 2vw;
+}
+
+.featured-title {
+	font-size: 44px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	color: var(--main-color);
+}
+
+.featured-items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.featured-subtitle {
+	font-size: 26px;
+	margin-top: 8px;
+	font-style: italic;
+}
+
