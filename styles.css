@@ -244,6 +244,7 @@ a.logo-link {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .hours-title {
@@ -256,6 +257,7 @@ a.logo-link {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .hours-days {
