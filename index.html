@@ -19,16 +19,18 @@
                     });
                 });
 
-            document.querySelectorAll(".menu-item-order").forEach(
-                button => {button.onclick = function() { 
-                    let data = {
-                        name: this.parentElement.childNodes[1].textContent,
-                        price: this.textContent
-                    };
-                    localStorage.setItem("special-item", JSON.stringify(data));
-                    window.location.assign("https://189425.github.io/phswebmaster2025/menu.html");
-                }}
-            );
+            document.addEventListener("DOMContentLoaded", function() {
+                document.querySelectorAll(".menu-item-order").forEach(
+                    button => {button.onclick = function() { 
+                        let data = {
+                            name: this.parentElement.childNodes[1].textContent,
+                            price: this.textContent
+                        };
+                        localStorage.setItem("special-item", JSON.stringify(data));
+                        window.location.assign("https://189425.github.io/phswebmaster2025/menu.html");
+                    }}
+                );
+            }
         </script>
         <style>
             @media (max-width: 650px) {
