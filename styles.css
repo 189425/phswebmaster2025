@@ -506,8 +506,8 @@ div.menu {
 .welcome-pictures {
 	width: 25vw;
 	height: 25vw;
-	background-color: red;
 	margin-right: 8%;
+	translate: -100px 45px;
 }
 
 .welcome-title {
@@ -782,5 +782,10 @@ div.menu {
 	font-size: 26px;
 	margin-top: 8px;
 	font-style: italic;
+}
+
+.i-give-up {
+	width: 35vw;
+	margin-right: 8%;
 }
 
