@@ -40,6 +40,11 @@
         h3, p {
             text-align: center;
         }
+
+        @media (max-width: 650px) {
+            svg {
+                width: 400px;
+            }
     </style>
     <script>
         fetch('/phswebmaster2025/assets/header.html')
@@ -52,7 +57,7 @@
             });
     </script>
 </head>
-<body>
+<body class="body-element">
     <div id="shared-header"></div>
 
     <h3>Explore</h3>
