@@ -640,7 +640,7 @@ div.menu {
 	font-size: 69px;
 	font-weight: bold;
 	margin-bottom: 10px;
-	color: rgb(202,  67, 90);
+	color: var(--main-color);
 }
 
 .about-text{
@@ -681,7 +681,7 @@ div.menu {
 	font-size: 44px;
 	font-weight: bold;
 	margin-bottom: 0px;
-	color: rgb(202, 67, 90);
+	color: var(--main-color);
 }
 
 .who-description {
@@ -733,7 +733,7 @@ div.menu {
 	font-size: 44px;
 	font-weight: bold;
 	margin-bottom: 60px;
-	color: rgb(202, 67, 90);
+	color: var(--main-color);
 }
 
 .prep-text{
