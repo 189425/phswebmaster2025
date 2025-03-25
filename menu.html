@@ -53,12 +53,12 @@
                 document.querySelectorAll(".menu-item-order").forEach(
                     button => {button.onclick = function() { addToCartObject(this);}}
                 )
-
-                function toBeImplemented() {
-                    document.getElementById("pay-button").innerHTML = "To be Implemented";
-                    setTimeout(function() {document.getElementById("pay-button").innerHTML = "Pay";});
-                }
             });
+
+            function toBeImplemented() {
+                document.getElementById("pay-button").innerHTML = "To be Implemented";
+                setTimeout(function() {document.getElementById("pay-button").innerHTML = "Pay";});
+            }
         </script>
         <style>
             * {
