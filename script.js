@@ -99,3 +99,8 @@ function adjustPrice(action, price) {
     let finalPara = document.getElementById("final");
     finalPara.innerHTML = "Total = $" + (subtotal + (subtotal * 0.0825)).toFixed(2);
 }
+
+function toBeImplement() {
+	document.getElementById("account-text").innerHTML = "To be Implemented";
+	setTimeout(function() {document.getElementById("account-text").innerHTML = "Welcome.";}, 2000);
+}
