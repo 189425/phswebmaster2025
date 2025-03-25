@@ -32,6 +32,11 @@
                     }}
                 );
             });
+
+            function revealNumber() {
+                document.getElementsByClassName(".contact-button")[0].innerHTML = "Call us at (678)-482-8788!";
+                setTimeout(function() {document.getElementsByClassName(".contact-button")[0].innerHTML = "Contact Us"}, 15000);
+            }
         </script>
         <style>
             @media (max-width: 650px) {
@@ -141,7 +146,7 @@
                     </div>
                 </div>
                 <div class = "location-info-vertical">
-                    <a class = "contact-button">
+                    <a class = "contact-button" onclick="revealButton()">
                         Contact Us
                     </a>
                 </div>
